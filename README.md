@@ -8,6 +8,8 @@ The idea came forth when I was doing some javaScript tutorials, and just flat-ou
 And at the same time, I was also getting very frustrated with jostling different script files, editing the HTML pages I was using, and how ofter I accidentally overwrote something I really didn't want to.
 So, I made this. Sure, it's very amateurish, but I learned more about javaScript in one night with this, than on the whole week of tutorials I was doing beforehand. Gotta start somewhere, right?
 
-| Stuff to add        | Notes                 | Done? |
-| --------------------|:---------------------:| -----:|
-| Option to cancel    | Quick fix             |       |
+| Stuff to add                   | Notes                        |
+| -------------------------------|:----------------------------:|
+| Option to cancel               | Quick fix.                   |
+| Research a style guide to use  | Idiomatic or jQuery          |
+| Add some sort of dBase         | To store used scripts etc.   |
