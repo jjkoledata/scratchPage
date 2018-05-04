@@ -40,7 +40,7 @@ thead {
 }
 
 th {
-    font-size: 1.1em;
+    font-size: 1.3em;
     font-weight: bold;
     text-align: -internal-center;
 }
@@ -58,7 +58,7 @@ tbody {
 }
 
 td, th {
-    border-right: 1px solid #dcdcdc;
+    border-right: 2px solid #dcdcdc;
     padding: 8px 12px;
     display: table-cell;
     vertical-align: inherit;
@@ -74,6 +74,20 @@ td:last-child, th:last-child {
     border-right-width: 0px;
     border-right-style: initial;
     border-right-color: initial;
+}
+
+.small_border {
+  border-style: solid;
+  border-color: grey;
+  border-width: 1px;
+  margin: 30px;
+  padding: 15%;
+}
+
+.text_center {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 .body_center {
@@ -107,10 +121,10 @@ blockquote, dl, ol, p, pre, ul {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 1.8em 0;
-    margin-top: 1.8em;
-    margin-right: 0px;
-    margin-bottom: 1.8em;
-    margin-left: 0px;
+  margin-top: 1.8em;
+  margin-right: 0px;
+  margin-bottom: 1.8em;
+  margin-left: 0px;
   line-height: 1.33;
 }
 
@@ -122,22 +136,24 @@ h1 {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   font-weight: bold;
+  text-align: center;
 }
 
 h2 {
     display: block;
-    font-size: 1.53em;
+    font-size: 1.5em;
     -webkit-margin-before: 0.83em;
     -webkit-margin-after: 0.83em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
+    text-align:  center;
     font-weight: bold;
 }
 
 h3 {
   display: block;
-  font-size: 1.17em;
-  -webkit-margin-before: 1em;
+  font-size: 1.20em;
+  -webkit-margin-before: 1.5em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
@@ -162,11 +178,10 @@ p {
 }
 
 
-h1:after, h2:after {
+h1:after, h2:after, body:after {
     content: "";
     display: block;
     position: relative;
     top: .33em;
-    border-bottom: 1px solid hsla(0,0%,50%,.2);
+    border-bottom: 2px solid hsla(0,0%,50%,.2);
 }
-

@@ -6,13 +6,13 @@
   <meta charset="UTF-8">
   <script src="jScripts/jquery.min.js"></script>
   <script src="jScripts/sloader.js"></script>
-  <link rel="stylesheet" href="css/basic.css">
+  <link rel="stylesheet" href="css/advanced.css">
 </head>
 
 <body>
 
   <br>
-  <div class="center box">
+  <div class="body_center text_center small_border">
     <h1>JavaScript Testground</h1>
     <p>Here you can load different scripts without having to edit the HTML document</p>
     <button onclick="cleanTable()">Clear the list &amp console.</button>
@@ -22,7 +22,7 @@
   </div> 
   <br>
   <div>
-    <table id="myTable" class="center box">
+    <table id="myTable" class="text_center">
       <thead>
         <tr>
           <th><b>Scripts loaded in this session:</b></th>
@@ -34,4 +34,10 @@
   </div>
   
 </body>
+<footer class="text_center">
+  <form action="backpage.html">
+    <input type="submit" value="Back!" />    
+  </form>
+  <p>&copy; Jyrki Kokkola - 2018</p>
+</footer>
 </html>
